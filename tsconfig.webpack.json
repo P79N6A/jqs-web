@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "paths": {
+            "my-local-public-util/*": ["src/public/util/*"],
+            "my-local-public-business/*": ["src/public/business/*"],
+
+            "my-local-web-config": ["src/web/config"],
+            "my-local-web-helper": ["src/web/helper"],
+            "my-local-web-helper/*": ["src/web/helper/*"],
+            "my-local-web-util": ["src/web/util"],
+            "my-local-web-util/*": ["src/web/util/*"],
+            "my-local-web-business": ["src/web/business"],
+            "my-local-web-business/*": ["src/web/business/*"],
+            "my-local-web-component": ["src/web/react/component"],
+            "my-local-web-component/*": ["src/web/react/component/*"]
+        }
+    },
+    "extends": "./tsconfig.json"
+}

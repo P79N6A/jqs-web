@@ -1,0 +1,13 @@
+{
+    /**
+     * Created by garrettzhou@2018-7-18
+     * 用于项目构建
+     */
+    "extends": [
+        "tslint:all",
+        "../../tslint.json"
+    ],
+    "rules": {
+        "no-implicit-dependencies": [true, "dev"]
+    }
+}

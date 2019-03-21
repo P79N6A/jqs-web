@@ -1,0 +1,12 @@
+{
+    /**
+     * Created by garrettzhou@2018-7-18
+     * 用于react组件
+     */
+    "extends": [
+        "../../../tslint.json"
+    ],
+    "rules": {
+        "no-magic-numbers": false
+    }
+}

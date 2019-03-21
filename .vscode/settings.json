@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "*.js": "javascript",
+        ".eslintrc": "jsonc",
+        ".babelrc": "jsonc",
+        ".stylelintrc": "jsonc"
+    },
+
+    "http.proxy": "http://web-proxy.tencent.com:8080",
+
+    "tslint.ignoreDefinitionFiles": false,
+    "tslint.exclude": ["**/node_modules/**", "**/dist/**", "**/lib/**", "**/bundle/**", "**/.tsc/**", "**/assets/**"],
+    "tslint.jsEnable": true,
+
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.suggest.autoImports": false,
+    "files.eol": "\n",
+}

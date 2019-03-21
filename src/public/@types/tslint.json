@@ -1,0 +1,13 @@
+{
+    /**
+     * Created by garrettzhou@2018-7-18
+     * 用于@types
+     */
+    "extends": [
+        "tslint:all",
+        "../../../tslint.json"
+    ],
+    "rules": {
+        "no-implicit-dependencies": false
+    }
+}
